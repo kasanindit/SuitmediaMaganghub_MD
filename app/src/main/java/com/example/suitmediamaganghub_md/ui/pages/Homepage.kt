@@ -60,7 +60,7 @@ fun Homepage(name: String?, onChooseUser: () -> Unit, onBackClick: () -> Unit, s
                         onClick = onBackClick,
                         colors = IconButtonDefaults.iconButtonColors(
                             containerColor = Color.Transparent,
-                            contentColor = Color.White
+                            contentColor = MaterialTheme.colorScheme.onPrimaryContainer
                         )
                     ) {
                         Icon(
